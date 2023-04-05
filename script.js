@@ -70,7 +70,7 @@ navigator.mediaDevices
 const ctx = canvas.getContext("2d");
 // Загружаем изображение
 const maskImage = new Image();
-maskImage.src = "/images/safety.png";
+maskImage.src = "images/safety.png";
 maskImage.onload = () => {
   // Отображаем видеопоток на canvas с добавлением изображения
   setInterval(() => {
@@ -205,7 +205,7 @@ fullscreenBtnReturn.addEventListener("click", function () {
 const ctx2 = canvas2.getContext("2d");
 // Загружаем изображение
 const maskImage2 = new Image();
-maskImage2.src = "/images/safety.png";
+maskImage2.src = "images/safety.png";
 maskImage2.onload = () => {
   // Отображаем видеопоток на canvas с добавлением изображения
   setInterval(() => {
